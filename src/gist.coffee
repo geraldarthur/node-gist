@@ -1,5 +1,4 @@
 request = require("request").defaults(json: true)
-qs = require("querystring")
 _ = require("underscore")
 
 Gist = (token) ->
