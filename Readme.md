@@ -58,6 +58,29 @@ var newGist = {
 gist(validOauthToken).create(newGist, function(err, resp, json) {
   console.log(err, json)
 })
+
+// editing a gist
+var newGist = {
+  "description": "the description for this gist",
+  "files": {
+    "file1.txt": {
+      "content": "updated file contents"
+    },
+    "old_name.txt": {
+      "filename": "new_name.txt",
+      "content": "modified contents"
+    },
+    "new_file.txt": {
+      "content": "a new file"
+    },
+    "delete_this_file.txt": null
+  }
+}
+
+// deleting a gist
+gist.delete('2698151', function(err, resp, json) {
+  console.log(err, json)
+})
 ```
 
 ## Author
