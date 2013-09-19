@@ -21,6 +21,6 @@
     "node": ">=0.6.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.3"
+    "grunt": "~0.4.1",
   }
 }
