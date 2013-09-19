@@ -1,6 +1,4 @@
 var request = require('request').defaults({json: true})
-var qs = require('querystring')
-var _ = require('underscore')
 
 function Gist(token) {
   this.api = "https://api.github.com/"
