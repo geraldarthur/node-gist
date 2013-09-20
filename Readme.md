@@ -85,7 +85,7 @@ gist.delete('2698151', function(err, resp, json) {
 
 ## Author
 
-* Max Ogden (@maxogden)
+* Max Ogden (@maxogden), Gerald Arthur (@gerald_arthur)
 
 this library was forked from Emerson Macedo (<http://codificando.com/>) and entirely rewritten
 
